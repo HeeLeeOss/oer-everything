@@ -1,0 +1,32 @@
+{
+  "id": "oer-everything-reviewer-001",
+  "title": "Name/secure License+Provenance reviewer and Educator reviewer (blocking gate roles)",
+  "project": "oer-everything",
+  "type": "research",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["education", "oer", "k12", "governance"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "oer-everything is an umbrella that catalogs and standards-aligns openly-licensed K-12 resources; it does not re-author content. Two reviews are non-skippable, blocking gates before any resource enters the library: a License+Provenance reviewer (confirms the resource license permits reuse AND adaptation, records id/URL/snapshot, and ensures no license-restricted standards text is reproduced) and a subject-matched Educator/curriculum reviewer (confirms accuracy, grade band, and assigns the rubric score). These roles must be filled before the M0 pilot (ingesting oer-math) is reviewed, or intake halts.",
+  "objective": "Identify and secure at least one named, qualified License+Provenance reviewer and at least one named Educator/curriculum reviewer, and record their appointment (name + qualification) so the M0 pilot can be reviewed.",
+  "acceptanceCriteria": [
+    "At least one named License+Provenance reviewer who can read open licenses (CC0/CC-BY/CC-BY-SA/PD, open code licenses) and apply the standards-IP matrix is recorded with qualifications.",
+    "At least one named, subject-matched Educator/curriculum reviewer (math first, to match the oer-math pilot) is recorded with qualifications.",
+    "The appointment is documented in PLAN.md Governance, with a rotation note (>= 2 reviewers preferred) and a 'no named reviewer => intake halts' rule.",
+    "Until reviewers are named, all tasks remain verifiedNeed:false and no resource passes the gate; this state is recorded.",
+    "Deliverable is a governance document; output licensed CC-BY-4.0."
+  ],
+  "resources": [
+    "C:\\code\\elyos\\planning\\projects\\oer-everything\\PLAN.md",
+    "C:\\code\\elyos\\docs\\good-deed-definition.md",
+    "oer-math (live sibling project; first content source)"
+  ],
+  "output": "A governance document naming the License+Provenance and Educator reviewers (with qualifications and rotation policy), committed to the project repo, enabling the M0 pilot review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
