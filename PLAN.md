@@ -29,7 +29,7 @@ the standards it teaches; (4) a **license + provenance gate** that admits only v
 content; (5) a **quality rubric** with educator review; and (6) a **privacy-first static discovery
 site** where a teacher browses by grade → subject → standard and lands on a usable, free resource.
 
-The project **coordinates** sibling Elyos OER projects rather than duplicating them. The live
+The project **coordinates** sibling Hee-Lee Oss OER projects rather than duplicating them. The live
 `oer-math` project is the first content source ingested end-to-end; later phases onboard
 `oer-science-labs`, `open-coding-curriculum`, and reading/decodable libraries through one published
 **coordination protocol**. oer-everything owns the spine (schema, standards, crosswalk, gate,
@@ -57,7 +57,7 @@ are repeatedly cited as the top barriers to OER adoption, ahead of content avail
 that macro-need as real. We are explicit, however, that the **per-classroom, per-partner delivery need
 is TO BE SECURED**: no specific teacher, school, district, or teacher-serving nonprofit has yet
 committed to adopt and use this library. Until a named beneficiary confirms adoption, individual tasks
-carry `verifiedNeed: false`. This honesty is load-bearing: Elyos's bar is **delivered, not merged** —
+carry `verifiedNeed: false`. This honesty is load-bearing: Hee-Lee Oss's bar is **delivered, not merged** —
 a catalog nobody teaches from is not a good deed, however well-built.
 
 **Partner / requestor.** TO BE SECURED. Candidate channels: teacher-serving nonprofits and OER
@@ -65,7 +65,7 @@ intermediaries (e.g., open-curriculum nonprofits, library/education foundations)
 curriculum offices, homeschool and refugee-education networks, and the maintainers of sibling OER
 projects. M0 includes explicit outreach; no partner is assumed.
 
-**Coordination, not competition.** A distinct part of the problem is *internal* to Elyos: the roadmap
+**Coordination, not competition.** A distinct part of the problem is *internal* to Hee-Lee Oss: the roadmap
 already contains many sibling education projects (`oer-math` live; `oer-science-labs`,
 `open-coding-curriculum`, `decodable-readers`, `teacher-lesson-plans`, `quiz-bank-open`,
 `curriculum-standards-map`, and more, selected/candidate). Without an umbrella they will produce
@@ -76,7 +76,7 @@ fragmentation** by giving them one schema, one standards registry, and one disco
 
 **Goals**
 - Publish a shared, standards-aligned **metadata model** (schema.org/`LearningResource` + LRMI) that
-  every Elyos OER subject library and external contributor can target.
+  every Hee-Lee Oss OER subject library and external contributor can target.
 - Stand up a machine-readable **standards registry** with stable GUIDs (CASE/ASN) for the core K-12
   frameworks teachers are accountable to, and a **crosswalk** from resources to standards.
 - Make **license + provenance verification a non-skippable, auditable gate**: only openly-licensed
@@ -180,7 +180,7 @@ crosswalks, validators, and a static site). It deliberately moves *no* data abou
 backend service.
 
 **Locked build decisions.**
-- **Stack:** TypeScript, ESM, pnpm workspaces (Elyos conventions). Validators and tooling are small
+- **Stack:** TypeScript, ESM, pnpm workspaces (Hee-Lee Oss conventions). Validators and tooling are small
   Node packages with minimal dependencies. The discovery site is a **static site (Astro)** —
   pre-rendered HTML, no server, no database. **Search is client-side and privacy-preserving**
   (prebuilt static index, e.g. Pagefind) — no query is sent to any server.
@@ -337,7 +337,7 @@ surface; and — for the **project's** delivered outcome — (6) the Steward has
 **M0 — Foundation & cold-start (thin)**
 - Goal: build the spine (schema, one standards framework, gate, rubric, protocol, thin site) and prove
   it end-to-end by ingesting the **live `oer-math` project** as the first content source.
-- **Cold-start de-risking.** The pilot content source is **`oer-math`** — already a live Elyos
+- **Cold-start de-risking.** The pilot content source is **`oer-math`** — already a live Hee-Lee Oss
   project, so guaranteed openly-licensed content exists from day one; no third party must say yes for
   M0 to produce a real, findable, standards-aligned result. The CCSS Math framework is chosen first
   precisely to dovetail with `oer-math`.
@@ -410,13 +410,13 @@ artifacts that most tasks depend on.
   via a deliberate task.
 - **Standards frameworks (each license-verified per the IP matrix):** CCSS Math, CCSS ELA, NGSS,
   CSTA K-12 CS; method documented for state frameworks.
-- **Sibling Elyos projects (coordination, not dependency-injection):** `oer-math` (live; first
+- **Sibling Hee-Lee Oss projects (coordination, not dependency-injection):** `oer-math` (live; first
   content source + M0 proof), then `oer-science-labs`, `open-coding-curriculum`,
   `decodable-readers`/reading libraries; conceptual overlap with `curriculum-standards-map` (which may
   fold into this umbrella's standards registry — see Open questions).
 - **External services:** none at runtime (static site; no backend). Build/CI only. Optional archival
   service (e.g., Wayback) for link snapshots.
-- **Elyos pieces:** Task JSON schema (`packages/schema`), donated-lane CLI workspace/PR flow
+- **Hee-Lee Oss pieces:** Task JSON schema (`packages/schema`), donated-lane CLI workspace/PR flow
   (`packages/cli`), good-deed definition + refusal guardrails. No funded-lane/runner dependency.
 
 ## Risks & mitigations
@@ -447,7 +447,7 @@ artifacts that most tasks depend on.
   silently erode.
 - **Secrets handling.** Tooling needs no credentials by default. If an archival or standards API token
   is ever needed at build time, it is supplied via CI secrets and never written into logs, receipts,
-  catalog records, or committed files (per Elyos rules).
+  catalog records, or committed files (per Hee-Lee Oss rules).
 - **Upstream content risk.** Cataloged third-party resources may themselves embed trackers or unsafe
   content; we label known data-collecting resources, exclude unsafe/inappropriate content via the
   educator gate, and never embed third-party scripts into our own pages.
@@ -486,13 +486,13 @@ artifacts that most tasks depend on.
 
 ## References
 
-- Elyos work rules — `C:\code\elyos\CLAUDE.md`
-- Good Deed Definition + risk tiers — `C:\code\elyos\docs\good-deed-definition.md`
-- Task JSON schema — `C:\code\elyos\packages\schema\src\schemas.ts`
-- Portfolio roadmap — `C:\code\elyos\planning\ROADMAP.md`
+- Hee-Lee Oss work rules — `C:\code\hee-lee-oss\CLAUDE.md`
+- Good Deed Definition + risk tiers — `C:\code\hee-lee-oss\docs\good-deed-definition.md`
+- Task JSON schema — `C:\code\hee-lee-oss\packages\schema\src\schemas.ts`
+- Portfolio roadmap — `C:\code\hee-lee-oss\planning\ROADMAP.md`
 - Sibling project (first content source) — `oer-math` (live; seed task
   `registry\seed-tasks\oer-math\fractions-practice-set-001.json`)
-- Convention exemplar — `C:\code\elyos\planning\projects\open-data-datasheets\{PLAN,TASKS}.md`
+- Convention exemplar — `C:\code\hee-lee-oss\planning\projects\open-data-datasheets\{PLAN,TASKS}.md`
 - schema.org/`LearningResource`; LRMI (Learning Resource Metadata Initiative)
 - 1EdTech CASE 1.x; ASN (Achievement Standards Network) identifiers
 - Standards frameworks: Common Core State Standards (Math, ELA); NGSS; CSTA K-12 CS Standards
@@ -565,7 +565,7 @@ the version above. Each line states the change and where it now lives.
 
 ## Review sign-off
 
-Reviewed against the Elyos robustness bar (metrics, gates, risks, guardrails, sequencing, schema
+Reviewed against the Hee-Lee Oss robustness bar (metrics, gates, risks, guardrails, sequencing, schema
 validity). Findings and resolutions:
 
 - **Measurable metrics?** Yes — every success metric has a baseline + 6-month target and a defined

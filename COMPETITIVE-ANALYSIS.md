@@ -1,9 +1,9 @@
 # Competitive + Improvement Analysis — `oer-everything`
 
-> Scope: Elyos good-deed project that aims to build the **umbrella / coordination layer** (shared
+> Scope: Hee-Lee Oss good-deed project that aims to build the **umbrella / coordination layer** (shared
 > LRMI metadata model, standards registry with CASE/ASN GUIDs, resource→standard crosswalk, a
 > license/provenance gate, an educator-scored quality rubric, and a privacy-first static discovery
-> site) over openly-licensed K-12 educational content — *coordinating* sibling Elyos authoring
+> site) over openly-licensed K-12 educational content — *coordinating* sibling Hee-Lee Oss authoring
 > projects (`oer-math` live; `oer-science-labs`, `open-coding-curriculum`, reading libraries) rather
 > than authoring content itself.
 > Guardrails: open license (CC/PD only), accuracy, educator review, accessibility, standards-alignment.

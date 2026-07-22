@@ -21,8 +21,8 @@
     "Deliverable is a governance document; output licensed CC-BY-4.0."
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\oer-everything\\PLAN.md",
-    "C:\\code\\elyos\\docs\\good-deed-definition.md",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\oer-everything\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\docs\\good-deed-definition.md",
     "oer-math (live sibling project; first content source)"
   ],
   "output": "A governance document naming the License+Provenance and Educator reviewers (with qualifications and rotation policy), committed to the project repo, enabling the M0 pilot review.",

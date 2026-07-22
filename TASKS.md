@@ -2,9 +2,9 @@
 
 > Status: Draft · Version: 0.1.0 · Last updated: 2026-06-28 · Owner: TBD (maintainer) · Lane: donated
 
-## How these tasks map to Elyos
+## How these tasks map to Hee-Lee Oss
 
-Each task below becomes an Elyos **Task JSON** validated against
+Each task below becomes a Hee-Lee Oss **Task JSON** validated against
 `packages/schema/src/schemas.ts`. Field mapping:
 
 - `id` — stable slug ID from the tables (e.g. `oer-everything-schema-002`).
@@ -244,8 +244,8 @@ governance + steward model published; ≥ 1 confirmed ongoing partner.
     "Deliverable is a governance document; output licensed CC-BY-4.0."
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\oer-everything\\PLAN.md",
-    "C:\\code\\elyos\\docs\\good-deed-definition.md",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\oer-everything\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\docs\\good-deed-definition.md",
     "oer-math (live sibling project; first content source)"
   ],
   "output": "A governance document naming the License+Provenance and Educator reviewers (with qualifications and rotation policy), committed to the project repo, enabling the M0 pilot review.",
