@@ -387,13 +387,22 @@ artifacts that most tasks depend on.
 
 ## Governance, roles & stakeholders
 
+**See GOVERNANCE.md for the complete governance framework, reviewer qualifications, rotation policy, intake-halt rule, and onboarding process.**
+
 - **Maintainer (Owner):** TBD — owns the schema, standards registry, validators, site, and backlog.
 - **License + Provenance reviewer:** TBD (TO BE SECURED) — mandatory, **non-skippable** gatekeeper for
   every resource (license permits reuse+adaptation; no license-restricted standards text). Must be
-  **filled before the M0 pilot is reviewed**. May rotate among ≥ 2 qualified reviewers, but ≥ 1 named
-  reviewer must always exist or intake halts. Until named, all tasks stay `verifiedNeed:false`.
+  **filled before the M0 pilot is reviewed**. Qualifications: ability to read and interpret open
+  licenses (CC0/CC-BY/CC-BY-SA/PD, open code licenses) and apply the standards-IP matrix per PLAN.md
+  § Data, licensing & compliance. May rotate among ≥ 2 qualified reviewers, but ≥ 1 named reviewer must
+  always exist or intake halts. Until named, all tasks stay `verifiedNeed:false`. **Current status:**
+  Intake halted. Identification and onboarding process documented in GOVERNANCE.md.
 - **Educator / curriculum reviewer(s):** TBD (TO BE SECURED) — subject-matched practicing educators
-  who verify accuracy, grade fit, and assign rubric scores. Also blocking before pilot review.
+  who verify accuracy, grade fit, and assign rubric scores (≥ 80 threshold). Also blocking before pilot
+  review. Qualifications: practicing or recent K-12 educator in subject (math first for M0), familiarity
+  with curriculum standards, ability to assess pedagogy and grade-appropriateness. May rotate among ≥ 2
+  qualified reviewers, but ≥ 1 named reviewer per subject must always exist or intake halts. **Current
+  status:** Intake halted. Identification and onboarding process documented in GOVERNANCE.md.
 - **Accessibility reviewer:** TBD — owns WCAG 2.2 AA conformance of the discovery surface and
   resource accessibility labeling.
 - **Technical reviewer(s):** rotation verifying schema validity, GUID resolution, link health, CI.
